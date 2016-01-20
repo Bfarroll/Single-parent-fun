@@ -1,0 +1,116 @@
+body {
+
+ background-image: url(Images/landing-page-01.jpg);
+ background-size: 1500px 900px;
+ background-repeat: no-repeat; 
+
+}
+
+.heading1 {
+
+    color: white; 
+    font-family: Arial, sans-serif;
+    font-style: italic; 
+    text-align: center;
+    font-size: 250%;
+    font-weight: 100;
+    top: 200px;
+    bottom: 100px; 
+}
+
+.heading2 {
+
+    color: white; 
+    font-family: sans-serif; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+    top: 110px;
+    bottom: 110px;
+
+}
+
+.paragraph1 {
+
+    color: white; 
+    font-family: sans-serif; 
+    text-align: center;
+    font-size: 200%;
+    top: 120px;
+    bottom: 120px;
+
+}
+
+.paragraph2 {
+
+    color: white; 
+    font-family: sans-serif; 
+    text-align: center;
+    font-size: 100%;
+    top: 130px;
+    bottom: 130px;
+
+}
+
+.container1 {
+
+    position: relative;
+    width: 620px;
+    padding: 10px;
+    border: 0px solid gray;
+    margin: 0;
+    left: 340px; 
+    align-content: center;
+    top: -230px; 
+    
+    
+}
+
+.logo {
+
+    position: relative;
+    left: 200px;
+    align-self: center; 
+    
+}
+
+.h1 {
+
+     position: relative;
+     width:800px; 
+     padding: 10px; 
+     border: 0px;
+     margin: 0;
+     align-content: center;
+     left: 220px;
+     top: -90px; 
+
+}
+
+.h2 {
+
+     position: relative;
+     width:1200px; 
+     padding: 10px; 
+     border: 0px;
+     margin: 0;
+     align-content: center;
+     left: 50px;
+     top: -150px; 
+    
+}
+
+.email {
+ 
+    position: relative;
+    width: 820px;
+    padding: 10px;
+    border: 0px solid gray;
+    margin: 0;
+    left: 200px; 
+    align-content: center;
+    top: -120px; 
+
+}
+
+
