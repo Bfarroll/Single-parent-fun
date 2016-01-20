@@ -28,12 +28,14 @@
 <p class="paragraph2">Insert your e-mail address and we will keep you updated!</p>
 </div>
 
+<div class="form">   
     <form method="post" id="emailForm" action="">
                         <input type="email" name="email" id="emailField" class="" placeholder="Enter Email Address" autofocus>
                         <button type="submit" class="goButton" id="registerGoButton">
-                            Go! 
+                            Go 
                         </button>
                     </form>
+             </div>
     
     <?php 
             $error = 0; // 0 = form not submitted yet, 1 = email registered, 2 = invalid address, 3 = email already registered
