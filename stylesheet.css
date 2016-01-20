@@ -113,4 +113,44 @@ body {
 
 }
 
+#registerGoButton {
+
+   background-color: #059f1d;
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    padding: 10px; 
+}
+
+#registerGoButton:hover {
+
+    border: none;
+    background:#067217;
+    box-shadow: 0px 0px 1px #059f1d;
+    
+
+}
+
+#emailField {
+
+  width: 400px;
+  height: 40px;
+  background-color: #777;
+  
+
+}
+
+.form {
+
+  position: relative;
+  left: 400px; 
+  top: -130px; 
+
+}
+
 
