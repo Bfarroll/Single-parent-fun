@@ -161,7 +161,11 @@ input::-webkit-input-placeholder {
    color: rgb(221, 221, 227);
    text-transform: uppercase;
    font-family: sans-serif;
-   text-decoration: underline; 
+   display: inline-block;
+    padding-right: 3px;
+    border-bottom: 1px solid #d4d3d3;
+    padding-bottom: 3px; 
+    
    
 
 }
