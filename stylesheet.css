@@ -117,7 +117,7 @@ body {
 #registerGoButton {
 
     position: relative; 
-    background-color: rgb(106, 206, 68);
+    background-color: rgb(98, 181, 61);
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     color: #fff;
@@ -176,7 +176,7 @@ input::-webkit-input-placeholder {
     position: relative; 
     width: 200px;
 	height: 200px;
-	background: rgb(106, 206, 68);
+	background: rgb(98, 181, 61);
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 100px;
