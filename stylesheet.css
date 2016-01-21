@@ -183,7 +183,11 @@ input::-webkit-input-placeholder {
     color: white; 
     font-size: 15px; 
     top: 80px;
-    right: -15px; 
+    right: -15px;
+    font-family: sans-serif; 
+    -ms-transform: rotate(9deg); 
+    -webkit-transform: rotate(9deg); 
+    transform: rotate(-10deg);
      
 }
 
