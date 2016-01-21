@@ -10,7 +10,7 @@
     
     <img class="logo" src="Images/landing-page-02.png" height="370" width="900">
          
- <div class="sticker"><p>Our new website will be up and running soon!</p></div>
+ <div class="sticker"><p>All new free site soon!</p></div>
     
     
          <div class="h1">
