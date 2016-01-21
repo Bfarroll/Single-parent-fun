@@ -181,8 +181,8 @@ input::-webkit-input-placeholder {
     
     position: relative;
     color: white; 
-    font-size: 15px; 
-    top: 80px;
+    font-size: 20px; 
+    top: 69px;
     right: -15px;
     font-family: sans-serif; 
     -ms-transform: rotate(9deg); 
