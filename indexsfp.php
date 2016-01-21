@@ -10,7 +10,7 @@
     
     <img class="logo" src="Images/landing-page-02.png" height="370" width="900">
          
- <div class="sticker"></div>
+ <div class="sticker"><p>Our new website will be up and running soon!</p></div>
     
     
          <div class="h1">
@@ -30,7 +30,7 @@
 
 <div class="form">   
     <form method="post" id="emailForm" action="">
-                        <input type="email" name="email" id="emailField" class="" placeholder="Enter Email Address" autofocus>
+                        <input type="email" name="email" id="emailField" placeholder="Enter Email Address" autofocus>
                         <button type="submit" class="goButton" id="registerGoButton">
                             Go 
                         </button>
