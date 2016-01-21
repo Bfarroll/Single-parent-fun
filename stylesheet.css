@@ -1,8 +1,9 @@
 body {
 
- background-image: url(Images/landing-page-01.jpg);
- background-size: 1500px 900px;
+ background-image: url(Images/landing-page-01.jpg); 
+ background-size: cover; 
  background-repeat: no-repeat; 
+ 
 
 }
 
@@ -61,7 +62,7 @@ body {
     margin: 0;
     left: 340px; 
     align-content: center;
-    top: -230px; 
+    top: -450px; 
     
     
 }
@@ -83,7 +84,7 @@ body {
      margin: 0;
      align-content: center;
      left: 220px;
-     top: -90px; 
+     top: -300px; 
 
 }
 
@@ -96,7 +97,7 @@ body {
      margin: 0;
      align-content: center;
      left: 50px;
-     top: -150px; 
+     top: -370px; 
     
 }
 
@@ -109,13 +110,13 @@ body {
     margin: 0;
     left: 200px; 
     align-content: center;
-    top: -120px; 
+    top: -500px; 
 
 }
 
 #registerGoButton {
 
-   background-color: #059f1d;
+   background-color: rgb(31, 198, 57);
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     color: #fff;
@@ -149,8 +150,41 @@ body {
 
   position: relative;
   left: 400px; 
-  top: -130px; 
+  top: -500px; 
 
+}
+
+input::-webkit-input-placeholder {
+   color: rgba(25, 25, 26, 0.5);
+   text-transform: uppercase;
+   font-family: sans-serif; 
+
+}
+
+.sticker {
+
+    position: relative; 
+    width: 200px;
+	height: 200px;
+	background: rgb(31, 198, 57);
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 100px;
+    font-family: sans-serif;
+    font-style: normal; 
+    left: 10px;
+    top: -350px; 
+    
+}
+
+.sticker p {
+    
+    position: relative;
+    color: white; 
+    font-size: 15px; 
+    top: 80px;
+    right: -15px; 
+     
 }
 
 
