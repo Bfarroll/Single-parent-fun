@@ -1,7 +1,7 @@
 body {
 
  background-image: url(Images/landing-page-01.jpg); 
- background-size: cover; 
+ background-size: 100% 100%; 
  background-repeat: no-repeat; 
  
 
@@ -60,7 +60,7 @@ body {
     padding: 10px;
     border: 0px solid gray;
     margin: 0;
-    left: 340px; 
+    left: 300px; 
     align-content: center;
     top: -450px; 
     
@@ -96,7 +96,7 @@ body {
      border: 0px;
      margin: 0;
      align-content: center;
-     left: 50px;
+     left: 12px;
      top: -370px; 
     
 }
@@ -116,7 +116,8 @@ body {
 
 #registerGoButton {
 
-   background-color: rgb(31, 198, 57);
+    position: relative; 
+    background-color: rgb(106, 206, 68);
     -moz-border-radius: 1px;
     -webkit-border-radius: 1px;
     color: #fff;
@@ -125,7 +126,8 @@ body {
     text-decoration: none;
     cursor: pointer;
     border:none;
-    padding: 10px; 
+    padding: 10px;
+    top: 3px; 
 }
 
 #registerGoButton:hover {
@@ -141,7 +143,8 @@ body {
 
   width: 400px;
   height: 40px;
-  background-color: #777;
+  background-color: #4b4949;
+  border: none; 
   
 
 }
@@ -150,14 +153,16 @@ body {
 
   position: relative;
   left: 400px; 
-  top: -500px; 
+  top: -520px; 
 
 }
 
 input::-webkit-input-placeholder {
-   color: rgba(25, 25, 26, 0.5);
+   color: rgb(221, 221, 227);
    text-transform: uppercase;
-   font-family: sans-serif; 
+   font-family: sans-serif;
+   text-decoration: underline; 
+   
 
 }
 
@@ -166,7 +171,7 @@ input::-webkit-input-placeholder {
     position: relative; 
     width: 200px;
 	height: 200px;
-	background: rgb(31, 198, 57);
+	background: rgb(106, 206, 68);
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 100px;
@@ -174,6 +179,7 @@ input::-webkit-input-placeholder {
     font-style: normal; 
     left: 10px;
     top: -350px; 
+    border: 5px solid #fff;
     
 }
 
@@ -182,8 +188,8 @@ input::-webkit-input-placeholder {
     position: relative;
     color: white; 
     font-size: 20px; 
-    top: 69px;
-    right: -15px;
+    top: 70px;
+    right: -4px;
     font-family: sans-serif; 
     -ms-transform: rotate(9deg); 
     -webkit-transform: rotate(9deg); 
