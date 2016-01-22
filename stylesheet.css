@@ -39,9 +39,9 @@ body {
     font-family: sans-serif; 
     text-align: center;
     font-size: 200%;
-    min-height: 100px;
-    max-height: 1000px;
-    margin-left: auto; 
+    margin-left: auto;
+    margin-bottom: -5px;
+    margin-top: -20px; 
 
 }
 
@@ -58,15 +58,12 @@ body {
 
 .container1 {
 
-    width: 40%;
-    max-width: 100%;
+    width: 100%;
+    max-width: 800px;
     margin-bottom: 80%;
-    padding: 10px;
     border: 0px solid gray;
     margin: auto;
     text-align: center; 
-    <!--position: relative;
-    bottom: 650px; -->
     
     
     
@@ -84,15 +81,13 @@ body {
 
 .h1 {
     
-    position: absolute;
-    padding: 10px; 
     border: 0px;
     margin-right: auto;
     margin-left: auto; 
     text-align: center;
     font-size: 0.9rem;
-    top: 40%;
     width: 100%;
+    max-width: 800px;
     
     <!--position: relative;
     bottom: 500px; -->
@@ -103,17 +98,15 @@ body {
 
 .h2 {
 
-     width:1200px; 
+     max-width: 800px; 
      margin: 0;
-     width: 80%;
+     width: 100%;
      margin-right: auto;
      margin-left: auto; 
      text-align: center;
-     <!--position: relative;
-     bottom: 565px; -->
-     position: absolute;
-     top: 350px; 
-     left: 300px; 
+     margin-top: -15px;
+    
+     
      
     
 }
@@ -121,12 +114,11 @@ body {
 .email {
  
     <!--position: relative;-->
-    width: 820px;
-    padding: 10px;
+    max-width: 800px;
     border: 0px solid gray;
     margin: 0;
     align-content: center;
-    width: 50%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto; 
     text-align: center;
@@ -177,14 +169,13 @@ body {
 
 .form {
 
-    width: 90%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto; 
     text-align: center; 
-    <!--position: relative;-->
-    <!--bottom: 730px;-->
-    margin-bottom: 200px; 
- 
+    max-width: 800px; 
+    margin-bottom: 50px;
+    margin-top: -15px; 
 
 }
 
@@ -207,9 +198,10 @@ input::-webkit-input-placeholder {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  <!--position: relative;
-  bottom: 200px;--> 
+  width: 100%;
+  max-width: 800px; 
+  margin-bottom: -75px; 
+  
   
     
 }
