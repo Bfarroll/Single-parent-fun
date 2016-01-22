@@ -8,17 +8,22 @@
 
 <body>
     
-    <img class="logo" src="Images/landing-page-02.png" height="370" width="900">
-         
- <div class="sticker"><p>All new free site soon!</p></div>
+    <div class="containerlogo">
+    <img class="logo" src="Images/landing-page-02.png">
+    </div> 
     
-    
+    <div class="sticker-03">
+    <img src="Images/sticker-03.png"> 
+    </div>
+
+ <div class="containerhead">
          <div class="h1">
               <h1 class="heading1">For the Better!</h1>
          </div>
        <div class="h2">
             <h2 class="heading2">Single Parent Fun wants your help!</h2>
     </div>
+</div>    
 <div class="container1">
     <p class="paragraph1">We will be in contact for you to help us build the all new Single Parent Fun Website</p>
     </div>
