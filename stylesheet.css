@@ -1,9 +1,11 @@
 body {
 
  background-image: url(Images/landing-page-01.jpg); 
- background-size: 100% 100%;  
+ width: 100%;
+ height: 100%; 
  background-repeat: no-repeat; 
- 
+ position: absolute;
+    
 
 }
 
@@ -15,8 +17,7 @@ body {
     text-align: center;
     font-size: 250%;
     font-weight: 100;
-    top: 200px;
-    bottom: 100px; 
+    
 }
 
 .heading2 {
@@ -26,8 +27,9 @@ body {
     text-align: center;
     font-weight: bold;
     font-size: 250%;
-    top: 110px;
-    bottom: 110px;
+    <!--position: absolute;
+    top: 325px; 
+    left: 300px;-->  
 
 }
 
@@ -37,8 +39,9 @@ body {
     font-family: sans-serif; 
     text-align: center;
     font-size: 200%;
-    top: 120px;
-    bottom: 120px;
+    min-height: 100px;
+    max-height: 1000px;
+    margin-left: auto; 
 
 }
 
@@ -55,62 +58,80 @@ body {
 
 .container1 {
 
-    position: relative;
-    width: 620px;
+    width: 40%;
+    max-width: 100%;
+    margin-bottom: 80%;
     padding: 10px;
     border: 0px solid gray;
-    margin: 0;
-    left: 300px; 
-    align-content: center;
-    top: -450px; 
+    margin: auto;
+    text-align: center; 
+    <!--position: relative;
+    bottom: 650px; -->
+    
     
     
 }
 
 .logo {
 
-    position: relative;
-    left: 200px;
-    align-self: center; 
+    margin: 20px auto 0 auto;
+    width: 100%; 
+    max-width: 800px;
+    text-align: center; 
     
+     
 }
 
 .h1 {
-
-     position: relative;
-     width:800px; 
-     padding: 10px; 
-     border: 0px;
-     margin: 0;
-     align-content: center;
-     left: 220px;
-     top: -300px; 
+    
+    position: absolute;
+    padding: 10px; 
+    border: 0px;
+    margin-right: auto;
+    margin-left: auto; 
+    text-align: center;
+    font-size: 0.9rem;
+    top: 40%;
+    width: 100%;
+    
+    <!--position: relative;
+    bottom: 500px; -->
+    
+     
 
 }
 
 .h2 {
 
-     position: relative;
      width:1200px; 
-     padding: 10px; 
-     border: 0px;
      margin: 0;
-     align-content: center;
-     left: 12px;
-     top: -370px; 
+     width: 80%;
+     margin-right: auto;
+     margin-left: auto; 
+     text-align: center;
+     <!--position: relative;
+     bottom: 565px; -->
+     position: absolute;
+     top: 350px; 
+     left: 300px; 
+     
     
 }
 
 .email {
  
-    position: relative;
+    <!--position: relative;-->
     width: 820px;
     padding: 10px;
     border: 0px solid gray;
     margin: 0;
-    left: 200px; 
     align-content: center;
-    top: -500px; 
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto; 
+    text-align: center;
+    font-size: 1rem; 
+    <!--bottom: 710px;--> 
 
 }
 
@@ -146,15 +167,24 @@ body {
   height: 40px;
   background-color: #4b4949;
   border: none; 
+  padding: 1px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%; 
   
 
 }
 
 .form {
 
-  position: relative;
-  left: 400px; 
-  top: -520px; 
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto; 
+    text-align: center; 
+    <!--position: relative;-->
+    <!--bottom: 730px;-->
+    margin-bottom: 200px; 
+ 
 
 }
 
@@ -164,42 +194,51 @@ input::-webkit-input-placeholder {
    font-family: sans-serif;
    display: inline-block;
     padding-right: 3px;
-    border-bottom: 1px solid #d4d3d3;
     padding-bottom: 3px; 
     
    
 
 }
 
-.sticker {
 
-    position: relative; 
-    width: 200px;
-	height: 200px;
-	background: rgb(98, 181, 61);
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 100px;
-    font-family: sans-serif;
-    font-style: normal; 
-    left: 10px;
-    top: -350px; 
-    border: 5px solid #fff;
+
+.containerlogo {
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  <!--position: relative;
+  bottom: 200px;--> 
+  
     
 }
 
-.sticker p {
+.containerheading {
+
+  text-align: center;
+  margin-bottom: 105px; 
+
+}
+
+.sticker-03 {
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  top:0;
+  left:0;
+  position: absolute;
+  
     
-    position: relative;
-    color: white; 
-    font-size: 20px; 
-    top: 70px;
-    right: -4px;
-    font-family: sans-serif; 
-    -ms-transform: rotate(9deg); 
-    -webkit-transform: rotate(9deg); 
-    transform: rotate(-10deg);
-     
 }
 
 
+@media only screen and (max-width: 941px), only screen and (max-device-width: 800px) {
+
+.sticker-03 {
+
+    display: none; 
+  }
+}
