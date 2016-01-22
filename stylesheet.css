@@ -254,6 +254,7 @@ input::-webkit-input-placeholder {
 .email {
 
      width: 70%; 
+     margin-top: 30px; 
 
 
 }    
