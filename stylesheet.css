@@ -234,3 +234,29 @@ input::-webkit-input-placeholder {
     display: none; 
   }
 }
+
+@media only screen and (max-width: 400px), only screen and (max-device-width: 760px) {
+
+
+.container1 {
+
+    width: 80%; 
+    margin-bottom: 60px; 
+
+  }
+    
+.h1 {
+
+    width: 55%; 
+
+}    
+    
+.email {
+
+     width: 70%; 
+
+
+}    
+    
+    
+}
