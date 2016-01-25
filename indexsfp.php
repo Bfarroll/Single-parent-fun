@@ -17,22 +17,21 @@
     </div>
 
  <div class="containerhead">
-         <div class="h1">
-              <h1 class="heading1">For the Better!</h1>
-         </div>
+         
        <div class="h2">
-            <h2 class="heading2">Single Parent Fun wants your help!</h2>
+            <h2 class="heading2">Single Parent Fun needs your help!</h2>
     </div>
 </div>    
 <div class="container1">
-    <p class="paragraph1">We will be in contact for you to help us build the all new Single Parent Fun Website</p>
+    <p class="paragraph1">We want to design a modern free and fun site for single parents and our children. We need your feedback and advise.</p>
     </div>
     
     
 <div class="email">
 <p class="paragraph2">Insert your e-mail address and we will keep you updated!</p>
 </div>
-
+    
+    
 <div class="form">   
     <form method="post" id="emailForm" action="">
                         <input type="email" name="email" id="emailField" placeholder="Enter Email Address" autofocus>
@@ -41,6 +40,10 @@
                         </button>
                     </form>
              </div>
+    
+    <div class="bottomtext">
+    <p class="paragraph3">We have 16,000 members already, so let us hear your VOICE.</p>
+    </div>
     
     <?php 
             $error = 0; // 0 = form not submitted yet, 1 = email registered, 2 = invalid address, 3 = email already registered
