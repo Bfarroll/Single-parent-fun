@@ -3,7 +3,8 @@ body {
  background-image: url(Images/landing-page-01.jpg); 
  width: 100%;
  height: 100%; 
- background-repeat: no-repeat; 
+ background-repeat: no-repeat;
+ 
  
     
 
@@ -262,8 +263,8 @@ input::-webkit-input-placeholder {
      
     margin-left: auto;
     margin-right: auto; 
-    margin-bottom: 55px;
     margin-top: -30px;
+    margin-bottom: -22px;
 
 
 }
