@@ -4,21 +4,11 @@ body {
  width: 100%;
  height: 100%; 
  background-repeat: no-repeat; 
- position: absolute;
+ 
     
 
 }
 
-.heading1 {
-
-    color: white; 
-    font-family: Arial, sans-serif;
-    font-style: italic; 
-    text-align: center;
-    font-size: 250%;
-    font-weight: 100;
-    
-}
 
 .heading2 {
 
@@ -79,22 +69,6 @@ body {
      
 }
 
-.h1 {
-    
-    border: 0px;
-    margin-right: auto;
-    margin-left: auto; 
-    text-align: center;
-    font-size: 0.9rem;
-    width: 100%;
-    max-width: 800px;
-    
-    <!--position: relative;
-    bottom: 500px; -->
-    
-     
-
-}
 
 .h2 {
 
@@ -257,7 +231,39 @@ input::-webkit-input-placeholder {
      margin-top: 30px; 
 
 
-}    
+}
+    
+.bottomtext {
+
+        width: 80%;
+
+
+}
     
     
+    
+}
+
+
+.paragraph3 {
+
+        
+    color: white; 
+    font-family: sans-serif; 
+    text-align: center;
+    width: 100%;
+    font-weight: bold; 
+    font-size: 200%; 
+    
+
+}
+
+.bottomtext {
+     
+    margin-left: auto;
+    margin-right: auto; 
+    margin-bottom: 55px;
+    margin-top: -30px;
+
+
 }
